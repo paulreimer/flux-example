@@ -17,6 +17,10 @@ spec:
         - -msg=Ahoyhoy
         ports:
         - containerPort: 80
+      resources:
+        requests:
+          cpu: 50m
+          memory: 64Mi
       - name: sidecar
         image: quay.io/weaveworks/sidecar:master-a000001
         args:
