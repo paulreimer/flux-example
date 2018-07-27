@@ -17,7 +17,7 @@ spec:
         - -msg=Ahoyhoyhoy
         ports:
         - containerPort: 80
-      resources:
-        requests:
-          cpu: 50m
-          memory: 64Mi
+        resources:
+          requests:
+            cpu: 50m
+            memory: 64Mi
